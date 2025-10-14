@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dev Agro Enterprises Website
+
+A professional website for Dev Agro Enterprises - Leading agricultural seeds & pesticides master distributor.
+
+## Features
+
+- 🌾 **Home Page**: Hero section with company introduction and partner showcase
+- 📖 **About Us**: Company story, mission, vision, and values
+- 🤝 **Our Partners**: Seed and pesticide company partnerships
+- 📝 **Dealership Application**: Complete registration form for dealers
+- 📞 **Contact Us**: Contact form, business information, and FAQ
+
+## Technology Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Deployment**: Vercel/Netlify ready
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/AviZacksy/devargo.in.git
+cd devargo.in
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+### Vercel (Recommended)
+1. Connect your GitHub repository to Vercel
+2. Deploy automatically with zero configuration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Netlify
+1. Connect your GitHub repository to Netlify
+2. Build command: `npm run build`
+3. Publish directory: `.next`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+```
+src/
+├── app/                 # Next.js App Router pages
+│   ├── about/          # About Us page
+│   ├── contact/        # Contact page
+│   ├── dealership/     # Dealership application
+│   ├── partners/       # Partners page
+│   └── page.tsx        # Home page
+├── components/         # Reusable components
+│   ├── Navigation.tsx  # Navigation bar
+│   └── Footer.tsx      # Footer component
+└── public/            # Static assets
+    └── logo.jpg       # Company logo
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Update contact information in `/src/app/contact/page.tsx`
+- Modify partner information in `/src/app/partners/page.tsx`
+- Customize company details in `/src/app/about/page.tsx`
+- Replace placeholder content with actual business information
+
+## License
+
+© 2024 Dev Agro Enterprises. All rights reserved.
