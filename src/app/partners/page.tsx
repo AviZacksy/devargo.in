@@ -1,47 +1,34 @@
 export default function Partners() {
-  const seedCompanies = [
+  const authorizedPartners = [
     {
       name: "Sun Seeds",
+      location: "Jaipur",
       description: "Leading provider of high-yield vegetable and field crop seeds with proven track record of success.",
       specialties: ["Vegetable Seeds", "Field Crops", "Hybrid Varieties"]
     },
     {
-      name: "Mukundra Seeds",
+      name: "Janhwi Seeds Pvt. Ltd.",
+      location: "Hyderabad",
       description: "Specialized in premium quality seeds for various crops with focus on disease resistance and high yield.",
       specialties: ["Cereal Crops", "Oil Seeds", "Pulses"]
     },
     {
-      name: "Green Valley Seeds",
-      description: "Innovative seed company offering cutting-edge varieties for modern farming practices.",
-      specialties: ["Hybrid Seeds", "Organic Varieties", "Climate Resistant"]
+      name: "Sugandham Hybrid Seeds Pvt. Ltd.",
+      location: "Hisar, Haryana",
+      description: "Innovative seed company offering cutting-edge hybrid varieties for modern farming practices.",
+      specialties: ["Hybrid Seeds", "High Yield Varieties", "Climate Resistant"]
     },
     {
-      name: "Crop Master Seeds",
+      name: "Rajashree",
+      location: "Kota",
       description: "Trusted name in agricultural seeds with extensive research and development programs.",
-      specialties: ["Research Varieties", "High Yield", "Quality Assurance"]
-    }
-  ];
-
-  const pesticideCompanies = [
-    {
-      name: "Pancham Agro",
-      description: "Leading manufacturer of crop protection chemicals and plant nutrition products.",
-      specialties: ["Insecticides", "Fungicides", "Herbicides"]
+      specialties: ["Research Varieties", "Quality Seeds", "Farmer Support"]
     },
     {
-      name: "Agro Shield",
-      description: "Specialized in eco-friendly crop protection solutions for sustainable agriculture.",
-      specialties: ["Bio Pesticides", "Organic Solutions", "Integrated Pest Management"]
-    },
-    {
-      name: "Crop Guard",
-      description: "Innovative crop protection company with focus on precision agriculture solutions.",
-      specialties: ["Precision Application", "Smart Formulations", "Resistance Management"]
-    },
-    {
-      name: "Plant Care Plus",
-      description: "Comprehensive plant health solutions including nutrition and protection products.",
-      specialties: ["Plant Nutrition", "Growth Promoters", "Soil Health"]
+      name: "Mukundara",
+      location: "Kota",
+      description: "Comprehensive agricultural solutions provider with focus on sustainable farming practices.",
+      specialties: ["Complete Solutions", "Technical Support", "Quality Assurance"]
     }
   ];
 
@@ -59,65 +46,36 @@ export default function Partners() {
         </div>
       </section>
 
-      {/* Seed Companies Section */}
+      {/* Authorized Sales Partners Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <div className="text-4xl mb-4">🌱</div>
+            <div className="text-4xl mb-4">🤝</div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Seed Companies
+              Authorized Sales Partners
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We partner with leading seed companies to bring you the highest quality seeds 
-              for maximum yield and crop success.
+              We are proud to be authorized sales partners with these leading agricultural companies, 
+              bringing you the highest quality seeds and agricultural solutions.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {seedCompanies.map((company, index) => (
-              <div key={index} className="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <h3 className="text-2xl font-bold text-emerald-600 mb-4">{company.name}</h3>
-                <p className="text-gray-600 mb-4">{company.description}</p>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Specialties:</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {company.specialties.map((specialty, idx) => (
-                      <span key={idx} className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">
-                        {specialty}
-                      </span>
-                    ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {authorizedPartners.map((partner, index) => (
+              <div key={index} className="bg-gradient-to-br from-gray-50 to-emerald-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-emerald-100">
+                <div className="text-center mb-6">
+                  <div className="bg-gradient-to-r from-emerald-500 to-teal-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl text-white">🌱</span>
                   </div>
+                  <h3 className="text-xl font-bold text-emerald-600 mb-2">{partner.name}</h3>
+                  <p className="text-sm text-gray-500 font-medium">📍 {partner.location}</p>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Pesticide Companies Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="text-4xl mb-4">🛡️</div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Pesticide Companies
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our pesticide partners provide comprehensive crop protection solutions 
-              to safeguard your harvest and ensure healthy crop growth.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {pesticideCompanies.map((company, index) => (
-              <div key={index} className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <h3 className="text-2xl font-bold text-emerald-600 mb-4">{company.name}</h3>
-                <p className="text-gray-600 mb-4">{company.description}</p>
+                <p className="text-gray-600 mb-6 text-sm leading-relaxed">{partner.description}</p>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Specialties:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-3 text-sm">Specialties:</h4>
                   <div className="flex flex-wrap gap-2">
-                    {company.specialties.map((specialty, idx) => (
-                      <span key={idx} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">
+                    {partner.specialties.map((specialty, idx) => (
+                      <span key={idx} className="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-xs font-medium">
                         {specialty}
                       </span>
                     ))}
@@ -130,40 +88,46 @@ export default function Partners() {
       </section>
 
       {/* Partnership Benefits */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Partnership Benefits
+              Why Choose Our Authorized Partners?
             </h2>
             <p className="text-lg text-gray-600">
-              Why our partnerships matter for your success
+              Benefits of working with our trusted authorized sales partners
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">✅</div>
-              <h3 className="text-xl font-semibold mb-3">Quality Assurance</h3>
+            <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-3xl">✅</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Authentic Products</h3>
               <p className="text-gray-600">
-                All our partner products undergo rigorous quality testing to ensure they meet 
-                the highest standards for agricultural use.
+                As authorized partners, we guarantee 100% authentic products directly from manufacturers 
+                with proper quality certifications and warranties.
               </p>
             </div>
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">📚</div>
-              <h3 className="text-xl font-semibold mb-3">Technical Support</h3>
+            <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-3xl">📚</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Expert Support</h3>
               <p className="text-gray-600">
-                Access to expert technical support and guidance from our partner companies 
-                to help you make the right product choices.
+                Access to comprehensive technical support, training, and guidance from our partner companies 
+                to ensure optimal product performance.
               </p>
             </div>
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">🔄</div>
-              <h3 className="text-xl font-semibold mb-3">Continuous Innovation</h3>
+            <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+              <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-3xl">🔄</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Latest Innovations</h3>
               <p className="text-gray-600">
-                Stay ahead with the latest products and technologies from our innovative 
-                partner companies.
+                Stay ahead with the newest products, technologies, and farming solutions from our 
+                innovative partner companies across India.
               </p>
             </div>
           </div>
