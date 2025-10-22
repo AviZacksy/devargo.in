@@ -47,35 +47,45 @@ export default function Partners() {
       </section>
 
       {/* Authorized Sales Partners Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="text-4xl mb-4">🤝</div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Authorized Sales Partners
+      <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden">
+        {/* Subtle Background Pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-emerald-200 to-teal-200"></div>
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full mb-6">
+              <span className="text-3xl text-white">🤝</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Authorized <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Sales Partners</span>
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               We are proud to be authorized sales partners with these leading agricultural companies, 
-              bringing you the highest quality seeds and agricultural solutions.
+              bringing you the highest quality seeds and agricultural solutions across India.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {authorizedPartners.map((partner, index) => (
-              <div key={index} className="bg-gradient-to-br from-gray-50 to-emerald-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-emerald-100">
+              <div key={index} className="group bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-105 border border-gray-100">
                 <div className="text-center mb-6">
-                  <div className="bg-gradient-to-r from-emerald-500 to-teal-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl text-white">🌱</span>
+                  <div className="bg-gradient-to-br from-emerald-400 to-emerald-600 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:rotate-12 transition-transform duration-300">
+                    <span className="text-3xl text-white">🌱</span>
                   </div>
-                  <h3 className="text-xl font-bold text-emerald-600 mb-2">{partner.name}</h3>
-                  <p className="text-sm text-gray-500 font-medium">📍 {partner.location}</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">{partner.name}</h3>
+                  <div className="flex items-center justify-center text-sm text-gray-500 font-medium">
+                    <span className="mr-2">📍</span>
+                    {partner.location}
+                  </div>
                 </div>
-                <p className="text-gray-600 mb-6 text-sm leading-relaxed">{partner.description}</p>
+                <p className="text-gray-600 mb-6 text-sm leading-relaxed text-center">{partner.description}</p>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-3 text-sm">Specialties:</h4>
-                  <div className="flex flex-wrap gap-2">
+                  <h4 className="font-bold text-gray-900 mb-4 text-sm text-center">Specialties:</h4>
+                  <div className="flex flex-wrap gap-2 justify-center">
                     {partner.specialties.map((specialty, idx) => (
-                      <span key={idx} className="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-xs font-medium">
+                      <span key={idx} className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium hover:bg-emerald-100 hover:text-emerald-700 transition-colors">
                         {specialty}
                       </span>
                     ))}
@@ -88,44 +98,47 @@ export default function Partners() {
       </section>
 
       {/* Partnership Benefits */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Our Authorized Partners?
+      <section className="py-20 bg-white relative overflow-hidden">
+        {/* Subtle Background Elements */}
+        <div className="absolute inset-0 bg-gradient-to-r from-emerald-50/30 to-teal-50/30"></div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Why Choose Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Authorized Partners?</span>
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Benefits of working with our trusted authorized sales partners
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-3xl">✅</span>
+            <div className="group bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl text-center hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100">
+              <div className="bg-gradient-to-br from-emerald-400 to-emerald-600 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:rotate-12 transition-transform duration-300">
+                <span className="text-3xl text-white">✅</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Authentic Products</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 leading-relaxed">
                 As authorized partners, we guarantee 100% authentic products directly from manufacturers 
                 with proper quality certifications and warranties.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-3xl">📚</span>
+            <div className="group bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl text-center hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100">
+              <div className="bg-gradient-to-br from-blue-400 to-blue-600 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:rotate-12 transition-transform duration-300">
+                <span className="text-3xl text-white">📚</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Expert Support</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 leading-relaxed">
                 Access to comprehensive technical support, training, and guidance from our partner companies 
                 to ensure optimal product performance.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-3xl">🔄</span>
+            <div className="group bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-xl text-center hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100">
+              <div className="bg-gradient-to-br from-purple-400 to-purple-600 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:rotate-12 transition-transform duration-300">
+                <span className="text-3xl text-white">🔄</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Latest Innovations</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 leading-relaxed">
                 Stay ahead with the newest products, technologies, and farming solutions from our 
                 innovative partner companies across India.
               </p>
@@ -135,26 +148,39 @@ export default function Partners() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-teal-600 to-emerald-700 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to Access These Quality Products?
+      <section className="py-20 bg-gradient-to-br from-emerald-600 via-teal-600 to-emerald-700 text-white relative overflow-hidden">
+        {/* Background Decorations */}
+        <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-teal-500/20"></div>
+        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-white/30 to-white/10"></div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <div className="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur-sm rounded-full mb-8">
+            <span className="text-3xl">🚀</span>
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            Ready to Access These <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-emerald-100">Quality Products?</span>
           </h2>
-          <p className="text-xl mb-8 text-emerald-100">
-            Join our dealer network and gain access to products from all our trusted partners
+          <p className="text-xl mb-12 text-emerald-100 max-w-3xl mx-auto leading-relaxed">
+            Join our dealer network and gain access to products from all our trusted partners across India
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
               href="/dealership"
-              className="bg-white text-emerald-600 px-8 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition-colors duration-200 shadow-lg hover:shadow-xl"
+              className="group bg-white text-emerald-600 px-10 py-4 rounded-xl font-bold text-lg hover:bg-emerald-50 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105"
             >
-              Apply for Dealership
+              <span className="flex items-center justify-center">
+                <span className="mr-3 group-hover:animate-pulse">🤝</span>
+                Apply for Dealership
+              </span>
             </a>
             <a
               href="/contact"
-              className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-emerald-600 transition-colors duration-200 shadow-lg hover:shadow-xl"
+              className="group border-2 border-white/80 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-emerald-600 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105 backdrop-blur-sm"
             >
-              Contact Us
+              <span className="flex items-center justify-center">
+                <span className="mr-3 group-hover:animate-bounce">📞</span>
+                Contact Us
+              </span>
             </a>
           </div>
         </div>
