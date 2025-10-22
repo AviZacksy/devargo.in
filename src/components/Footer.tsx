@@ -44,6 +44,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/network" className="text-gray-300 hover:text-emerald-400 transition-colors text-sm sm:text-base">
+                  Our Network
+                </Link>
+              </li>
+              <li>
                 <Link href="/dealership" className="text-gray-300 hover:text-emerald-400 transition-colors text-sm sm:text-base">
                   Apply for Dealership
                 </Link>

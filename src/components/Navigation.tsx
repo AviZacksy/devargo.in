@@ -10,6 +10,7 @@ export default function Navigation() {
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About Us' },
     { href: '/partners', label: 'Our Partners' },
+    { href: '/network', label: 'Our Network' },
     { href: '/dealership', label: 'Dealership' },
     { href: '/contact', label: 'Contact Us' },
   ];
