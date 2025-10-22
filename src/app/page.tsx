@@ -88,7 +88,7 @@ export default function Home() {
               Our Trusted Partners
             </h2>
             <p className="text-lg text-gray-600">
-              We partner with leading brands in the agricultural industry
+              We are authorised sales partners of these leading brands in agriculture industry
             </p>
           </div>
           
