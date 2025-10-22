@@ -1,8 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Dealership() {
+  const [isHydrated, setIsHydrated] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     company: '',
@@ -18,6 +19,10 @@ export default function Dealership() {
 
   const [isSubmitted, setIsSubmitted] = useState(false);
 
+  useEffect(() => {
+    setIsHydrated(true);
+  }, []);
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -32,6 +37,17 @@ export default function Dealership() {
     console.log('Form submitted:', formData);
     setIsSubmitted(true);
   };
+
+  if (!isHydrated) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-600 mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading...</p>
+        </div>
+      </div>
+    );
+  }
 
   if (isSubmitted) {
     return (
