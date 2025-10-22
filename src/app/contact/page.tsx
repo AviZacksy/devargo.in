@@ -253,7 +253,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map Section */}
+      {/* Find Us Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
@@ -263,12 +263,32 @@ export default function Contact() {
             </p>
           </div>
           
-          {/* Placeholder for Google Maps */}
-          <div className="bg-gray-200 h-96 rounded-lg flex items-center justify-center">
-            <div className="text-center text-gray-500">
-              <div className="text-4xl mb-4">🗺️</div>
-              <p className="text-lg">Google Maps Integration</p>
-              <p className="text-sm">Replace this with your actual Google Maps embed</p>
+          {/* Location Details */}
+          <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-lg p-8 text-center max-w-2xl mx-auto">
+            <div className="text-4xl mb-4">📍</div>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-4">Dev Agro Enterprises</h3>
+            <p className="text-gray-600 mb-6 text-lg">
+              Jaipur, Rajasthan<br />
+              India
+            </p>
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <p className="text-gray-700 mb-4">
+                For exact location and directions, please contact us:
+              </p>
+              <div className="space-y-2">
+                <a 
+                  href="tel:+918854844444" 
+                  className="block text-emerald-600 hover:text-emerald-700 font-medium text-lg"
+                >
+                  📞 +91-8854844444
+                </a>
+                <a 
+                  href="mailto:devagro2017@gmail.com" 
+                  className="block text-emerald-600 hover:text-emerald-700 font-medium text-lg"
+                >
+                  📧 devagro2017@gmail.com
+                </a>
+              </div>
             </div>
           </div>
         </div>
