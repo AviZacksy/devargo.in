@@ -6,7 +6,7 @@ export default function Footer() {
       {/* Decorative background elements */}
       <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/20 to-transparent"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-12 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8">
           {/* Company Info */}
           <div className="md:col-span-2 lg:col-span-2">
             <div className="flex items-center mb-4">
@@ -54,6 +54,44 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
+          </div>
+
+          {/* Our Network */}
+          <div className="mt-6 md:mt-0">
+            <h3 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">Our Network</h3>
+            <div className="text-gray-300 text-xs sm:text-sm space-y-1 max-h-32 overflow-y-auto">
+              <p className="font-medium text-emerald-400 mb-2">Rajasthan Coverage:</p>
+              <div className="grid grid-cols-2 gap-1">
+                <span>Alwar</span>
+                <span>Ajmer</span>
+                <span>Bhilwara</span>
+                <span>Banswara</span>
+                <span>Baran</span>
+                <span>Bharatpur</span>
+                <span>Barmer</span>
+                <span>Bundi</span>
+                <span>Chittorgarh</span>
+                <span>Churu</span>
+                <span>Dausa</span>
+                <span>Deedwana-Kuchaman</span>
+                <span>Dholpur</span>
+                <span>Dungarpur</span>
+                <span>Jalore</span>
+                <span>Jaipur</span>
+                <span>Jhalawar</span>
+                <span>Karauli</span>
+                <span>Khairthal-Tijara</span>
+                <span>Kota</span>
+                <span>Kotputli-Behror</span>
+                <span>Nagaur</span>
+                <span>Pali</span>
+                <span>Phalodi</span>
+                <span>Pratapgarh</span>
+                <span>Sawai Madhopur</span>
+                <span>Tonk</span>
+                <span>Udaipur</span>
+              </div>
+            </div>
           </div>
 
           {/* Business Hours */}
