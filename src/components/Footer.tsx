@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-600 mt-8 pt-8 text-center text-gray-300 text-sm">
-          <p>&copy; 2024 Dev Agro Enterprises. All rights reserved.</p>
+          <p>&copy; 2025 Dev Agro Enterprises. All rights reserved.</p>
         </div>
       </div>
     </footer>
