@@ -92,22 +92,46 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 items-center">
-            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-              <div className="text-lg sm:text-2xl font-bold text-emerald-600 mb-2">Sun Seeds</div>
-              <p className="text-xs sm:text-sm text-gray-600">Premium Seed Company</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-8 items-center">
+            <div className="group bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
+              <div className="bg-gradient-to-br from-emerald-400 to-emerald-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
+                <span className="text-2xl text-white">🌱</span>
+              </div>
+              <div className="text-lg font-bold text-emerald-600 mb-2">Sun Seeds</div>
+              <p className="text-sm text-gray-600">Premium Seed Company</p>
+              <p className="text-xs text-gray-500 mt-1">📍 Jaipur</p>
             </div>
-            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-              <div className="text-lg sm:text-2xl font-bold text-teal-600 mb-2">Mukundra Seeds</div>
-              <p className="text-xs sm:text-sm text-gray-600">Quality Seed Solutions</p>
+            <div className="group bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
+              <div className="bg-gradient-to-br from-blue-400 to-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
+                <span className="text-2xl text-white">🌱</span>
+              </div>
+              <div className="text-lg font-bold text-blue-600 mb-2">Janhwi Seeds</div>
+              <p className="text-sm text-gray-600">Quality Seed Solutions</p>
+              <p className="text-xs text-gray-500 mt-1">📍 Hyderabad</p>
             </div>
-            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-              <div className="text-lg sm:text-2xl font-bold text-green-600 mb-2">Pancham Agro</div>
-              <p className="text-xs sm:text-sm text-gray-600">Crop Protection</p>
+            <div className="group bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
+              <div className="bg-gradient-to-br from-purple-400 to-purple-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
+                <span className="text-2xl text-white">🌱</span>
+              </div>
+              <div className="text-lg font-bold text-purple-600 mb-2">Sugandham</div>
+              <p className="text-sm text-gray-600">Hybrid Seeds</p>
+              <p className="text-xs text-gray-500 mt-1">📍 Hisar, Haryana</p>
             </div>
-            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-              <div className="text-lg sm:text-2xl font-bold text-lime-600 mb-2">More Brands</div>
-              <p className="text-xs sm:text-sm text-gray-600">Coming Soon</p>
+            <div className="group bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
+              <div className="bg-gradient-to-br from-orange-400 to-orange-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
+                <span className="text-2xl text-white">🌱</span>
+              </div>
+              <div className="text-lg font-bold text-orange-600 mb-2">Rajashree</div>
+              <p className="text-sm text-gray-600">Research Varieties</p>
+              <p className="text-xs text-gray-500 mt-1">📍 Kota</p>
+            </div>
+            <div className="group bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
+              <div className="bg-gradient-to-br from-teal-400 to-teal-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
+                <span className="text-2xl text-white">🌱</span>
+              </div>
+              <div className="text-lg font-bold text-teal-600 mb-2">Mukundara</div>
+              <p className="text-sm text-gray-600">Complete Solutions</p>
+              <p className="text-xs text-gray-500 mt-1">📍 Kota</p>
             </div>
           </div>
           
