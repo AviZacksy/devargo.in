@@ -86,36 +86,46 @@ export default function Dealership() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+      <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-emerald-50 relative overflow-hidden">
+        {/* Decorative background elements */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-emerald-100/30 to-transparent rounded-full -translate-y-48 translate-x-48"></div>
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-teal-100/30 to-transparent rounded-full translate-y-40 -translate-x-40"></div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Why Partner With Us?
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
               Discover the advantages of becoming a Dev Agro dealer
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">💰</div>
-              <h3 className="text-xl font-semibold mb-3">Competitive Margins</h3>
-              <p className="text-gray-600">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <div className="group text-center p-8 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl border border-yellow-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-yellow-200 transition-shadow duration-300">
+                💰
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-yellow-700 group-hover:text-yellow-800 transition-colors">Competitive Margins</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Enjoy attractive profit margins with our competitive pricing structure
               </p>
             </div>
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">🏆</div>
-              <h3 className="text-xl font-semibold mb-3">Quality Products</h3>
-              <p className="text-gray-600">
+            <div className="group text-center p-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl border border-blue-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-blue-200 transition-shadow duration-300">
+                🏆
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-blue-700 group-hover:text-blue-800 transition-colors">Quality Products</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Access to premium quality seeds and pesticides from trusted brands
               </p>
             </div>
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">🤝</div>
-              <h3 className="text-xl font-semibold mb-3">Full Support</h3>
-              <p className="text-gray-600">
+            <div className="group text-center p-8 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-200 hover:shadow-xl hover:scale-105 transition-all duration-300 sm:col-span-2 lg:col-span-1">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-green-200 transition-shadow duration-300">
+                🤝
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-green-700 group-hover:text-green-800 transition-colors">Full Support</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Comprehensive support including training, marketing, and technical assistance
               </p>
             </div>
@@ -124,196 +134,231 @@ export default function Dealership() {
       </section>
 
       {/* Registration Form */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white p-8 rounded-lg shadow-lg">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+      <section className="py-20 bg-gradient-to-br from-gray-100 via-gray-50 to-emerald-50 relative overflow-hidden">
+        {/* Decorative background elements */}
+        <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-emerald-100/40 to-transparent rounded-full -translate-y-36 -translate-x-36"></div>
+        <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-to-tl from-teal-100/40 to-transparent rounded-full translate-y-40 translate-x-40"></div>
+        
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="bg-white p-8 sm:p-12 rounded-2xl shadow-2xl border border-emerald-100">
+            <div className="text-center mb-12">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full flex items-center justify-center text-3xl shadow-lg">
+                📝
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
                 Dealer Registration Form
               </h2>
-              <p className="text-gray-600">
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 Fill out the form below and our team will get back to you within 24 hours
               </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-8">
               {/* Personal Information */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Full Name *
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    value={formData.name}
-                    onChange={handleInputChange}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                    placeholder="Enter your full name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
-                    Company Name *
-                  </label>
-                  <input
-                    type="text"
-                    id="company"
-                    name="company"
-                    required
-                    value={formData.company}
-                    onChange={handleInputChange}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                    placeholder="Enter your company name"
-                  />
+              <div className="bg-gradient-to-r from-emerald-50 to-teal-50 p-6 rounded-xl border border-emerald-200">
+                <h3 className="text-xl font-semibold text-emerald-800 mb-6 flex items-center">
+                  <span className="w-8 h-8 bg-emerald-600 rounded-full flex items-center justify-center text-white text-sm mr-3">1</span>
+                  Personal Information
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-3">
+                      Full Name *
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      required
+                      value={formData.name}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors duration-200"
+                      placeholder="Enter your full name"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="company" className="block text-sm font-semibold text-gray-700 mb-3">
+                      Company Name *
+                    </label>
+                    <input
+                      type="text"
+                      id="company"
+                      name="company"
+                      required
+                      value={formData.company}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors duration-200"
+                      placeholder="Enter your company name"
+                    />
+                  </div>
                 </div>
               </div>
 
               {/* Contact Information */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                    Phone Number *
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    required
-                    value={formData.phone}
-                    onChange={handleInputChange}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                    placeholder="Enter your phone number"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email Address *
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                    placeholder="Enter your email address"
-                  />
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-200">
+                <h3 className="text-xl font-semibold text-blue-800 mb-6 flex items-center">
+                  <span className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm mr-3">2</span>
+                  Contact Information
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-3">
+                      Phone Number *
+                    </label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      required
+                      value={formData.phone}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
+                      placeholder="Enter your phone number"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-3">
+                      Email Address *
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      value={formData.email}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
+                      placeholder="Enter your email address"
+                    />
+                  </div>
                 </div>
               </div>
 
               {/* Address Information */}
-              <div>
-                <label htmlFor="address" className="block text-sm font-medium text-gray-700 mb-2">
-                  Address *
-                </label>
-                <textarea
-                  id="address"
-                  name="address"
-                  required
-                  rows={3}
-                  value={formData.address}
-                  onChange={handleInputChange}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                  placeholder="Enter your complete address"
-                />
+              <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-xl border border-purple-200">
+                <h3 className="text-xl font-semibold text-purple-800 mb-6 flex items-center">
+                  <span className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center text-white text-sm mr-3">3</span>
+                  Address Information
+                </h3>
+                <div className="space-y-6">
+                  <div>
+                    <label htmlFor="address" className="block text-sm font-semibold text-gray-700 mb-3">
+                      Address *
+                    </label>
+                    <textarea
+                      id="address"
+                      name="address"
+                      required
+                      rows={3}
+                      value={formData.address}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors duration-200"
+                      placeholder="Enter your complete address"
+                    />
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div>
+                      <label htmlFor="city" className="block text-sm font-semibold text-gray-700 mb-3">
+                        City *
+                      </label>
+                      <input
+                        type="text"
+                        id="city"
+                        name="city"
+                        required
+                        value={formData.city}
+                        onChange={handleInputChange}
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors duration-200"
+                        placeholder="Enter your city"
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="state" className="block text-sm font-semibold text-gray-700 mb-3">
+                        State *
+                      </label>
+                      <input
+                        type="text"
+                        id="state"
+                        name="state"
+                        required
+                        value={formData.state}
+                        onChange={handleInputChange}
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors duration-200"
+                        placeholder="Enter your state"
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="pincode" className="block text-sm font-semibold text-gray-700 mb-3">
+                        Pincode *
+                      </label>
+                      <input
+                        type="text"
+                        id="pincode"
+                        name="pincode"
+                        required
+                        value={formData.pincode}
+                        onChange={handleInputChange}
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors duration-200"
+                        placeholder="Enter your pincode"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div>
-                  <label htmlFor="city" className="block text-sm font-medium text-gray-700 mb-2">
-                    City *
-                  </label>
-                  <input
-                    type="text"
-                    id="city"
-                    name="city"
-                    required
-                    value={formData.city}
-                    onChange={handleInputChange}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                    placeholder="Enter your city"
-                  />
+              {/* Business Interest & Message */}
+              <div className="bg-gradient-to-r from-orange-50 to-red-50 p-6 rounded-xl border border-orange-200">
+                <h3 className="text-xl font-semibold text-orange-800 mb-6 flex items-center">
+                  <span className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center text-white text-sm mr-3">4</span>
+                  Business Details
+                </h3>
+                <div className="space-y-6">
+                  <div>
+                    <label htmlFor="interestedIn" className="block text-sm font-semibold text-gray-700 mb-3">
+                      Interested In *
+                    </label>
+                    <select
+                      id="interestedIn"
+                      name="interestedIn"
+                      required
+                      value={formData.interestedIn}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-colors duration-200"
+                    >
+                      <option value="">Select your interest</option>
+                      <option value="seeds">Seeds Only</option>
+                      <option value="pesticides">Pesticides Only</option>
+                      <option value="both">Both Seeds & Pesticides</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-3">
+                      Additional Message or Query
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows={4}
+                      value={formData.message}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-colors duration-200"
+                      placeholder="Tell us about your business experience, target market, or any specific requirements..."
+                    />
+                  </div>
                 </div>
-                <div>
-                  <label htmlFor="state" className="block text-sm font-medium text-gray-700 mb-2">
-                    State *
-                  </label>
-                  <input
-                    type="text"
-                    id="state"
-                    name="state"
-                    required
-                    value={formData.state}
-                    onChange={handleInputChange}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                    placeholder="Enter your state"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="pincode" className="block text-sm font-medium text-gray-700 mb-2">
-                    Pincode *
-                  </label>
-                  <input
-                    type="text"
-                    id="pincode"
-                    name="pincode"
-                    required
-                    value={formData.pincode}
-                    onChange={handleInputChange}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                    placeholder="Enter your pincode"
-                  />
-                </div>
-              </div>
-
-              {/* Business Interest */}
-              <div>
-                <label htmlFor="interestedIn" className="block text-sm font-medium text-gray-700 mb-2">
-                  Interested In *
-                </label>
-                <select
-                  id="interestedIn"
-                  name="interestedIn"
-                  required
-                  value={formData.interestedIn}
-                  onChange={handleInputChange}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                >
-                  <option value="">Select your interest</option>
-                  <option value="seeds">Seeds Only</option>
-                  <option value="pesticides">Pesticides Only</option>
-                  <option value="both">Both Seeds & Pesticides</option>
-                </select>
-              </div>
-
-              {/* Message */}
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                  Additional Message or Query
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={4}
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                  placeholder="Tell us about your business experience, target market, or any specific requirements..."
-                />
               </div>
 
               {/* Submit Button */}
-              <div className="text-center">
+              <div className="text-center pt-6">
                 <button
                   type="submit"
-                  className="bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors duration-200 text-lg shadow-lg hover:shadow-xl"
+                  className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-12 py-4 rounded-xl font-bold text-lg hover:from-emerald-700 hover:to-teal-700 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105"
                 >
-                  Submit Application
+                  🚀 Submit Application
                 </button>
+                <p className="text-sm text-gray-500 mt-4">
+                  We'll get back to you within 24 hours
+                </p>
               </div>
             </form>
           </div>
