@@ -140,7 +140,7 @@ export default function Network() {
             Join Our Network
           </h2>
           <p className="text-lg sm:text-xl mb-6 sm:mb-8 text-emerald-100 px-4 sm:px-0">
-            Become part of Rajasthan's most trusted agricultural network
+            Become part of Rajasthan&apos;s most trusted agricultural network
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
