@@ -103,43 +103,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Find Us Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Find Us</h2>
-            <p className="text-lg text-gray-600">
-              Visit our office or get directions to our location
-            </p>
-          </div>
-          
-          {/* Location Card */}
-          <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl p-8 text-center shadow-lg">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="text-4xl mb-4">📍</div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Dev Agro Enterprises</h3>
-              <p className="text-gray-600 mb-6 text-lg">
-                Jaipur, Rajasthan<br />
-                India
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="tel:+918854844444" 
-                  className="bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors font-medium"
-                >
-                  📞 Call Us
-                </a>
-                <a 
-                  href="mailto:devagro2017@gmail.com" 
-                  className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
-                >
-                  📧 Email Us
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* FAQ Section */}
       <section className="py-16 bg-white">
