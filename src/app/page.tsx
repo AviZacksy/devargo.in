@@ -4,8 +4,11 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-emerald-600 via-green-600 to-teal-700 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="bg-gradient-to-br from-emerald-500 via-green-600 to-teal-800 text-white py-20 relative overflow-hidden">
+        {/* Decorative background elements */}
+        <div className="absolute inset-0 bg-black opacity-10"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-transparent via-transparent to-black opacity-5"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Empowering Growth Through Quality Seeds & Crop Solutions
           </h1>
