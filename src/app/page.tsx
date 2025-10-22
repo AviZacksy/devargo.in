@@ -33,8 +33,11 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-emerald-50 relative overflow-hidden">
+        {/* Decorative background elements */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-emerald-100/30 to-transparent rounded-full -translate-y-48 translate-x-48"></div>
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-teal-100/30 to-transparent rounded-full translate-y-40 -translate-x-40"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               About Dev Agro Enterprises
@@ -46,24 +49,30 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">🌱</div>
-              <h3 className="text-xl font-semibold mb-2">Quality Seeds</h3>
-              <p className="text-gray-600">
+            <div className="group text-center p-8 bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl border border-emerald-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-emerald-500 to-green-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-emerald-200 transition-shadow duration-300">
+                🌱
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-emerald-700 group-hover:text-emerald-800 transition-colors">Quality Seeds</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Premium quality seeds from trusted brands to ensure maximum yield and crop success.
               </p>
             </div>
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">🛡️</div>
-              <h3 className="text-xl font-semibold mb-2">Crop Protection</h3>
-              <p className="text-gray-600">
+            <div className="group text-center p-8 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl border border-teal-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-teal-200 transition-shadow duration-300">
+                🛡️
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-teal-700 group-hover:text-teal-800 transition-colors">Crop Protection</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Effective pesticides and crop protection solutions to safeguard your harvest.
               </p>
             </div>
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">🤝</div>
-              <h3 className="text-xl font-semibold mb-2">Partnership</h3>
-              <p className="text-gray-600">
+            <div className="group text-center p-8 bg-gradient-to-br from-green-50 to-lime-50 rounded-2xl border border-green-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-green-500 to-lime-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-green-200 transition-shadow duration-300">
+                🤝
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-green-700 group-hover:text-green-800 transition-colors">Partnership</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Strong partnerships with leading brands and dedicated support for our dealers.
               </p>
             </div>
