@@ -9,13 +9,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-transparent via-transparent to-black opacity-5"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
             Empowering Growth Through Quality Seeds & Crop Solutions
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-emerald-100">
+          <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-emerald-100 px-4 sm:px-0">
             Leading agricultural seeds & pesticides master distributor
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4 sm:px-0">
             <Link
               href="/dealership"
               className="bg-white text-emerald-600 px-8 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition-colors duration-200 shadow-lg hover:shadow-xl"
@@ -48,31 +48,31 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="group text-center p-8 bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl border border-emerald-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
-              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-emerald-500 to-green-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-emerald-200 transition-shadow duration-300">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            <div className="group text-center p-6 sm:p-8 bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl border border-emerald-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 sm:mb-6 bg-gradient-to-br from-emerald-500 to-green-600 rounded-full flex items-center justify-center text-2xl sm:text-3xl shadow-lg group-hover:shadow-emerald-200 transition-shadow duration-300">
                 🌱
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-emerald-700 group-hover:text-emerald-800 transition-colors">Quality Seeds</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-emerald-700 group-hover:text-emerald-800 transition-colors">Quality Seeds</h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 Premium quality seeds from trusted brands to ensure maximum yield and crop success.
               </p>
             </div>
-            <div className="group text-center p-8 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl border border-teal-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
-              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-teal-200 transition-shadow duration-300">
+            <div className="group text-center p-6 sm:p-8 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl border border-teal-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 sm:mb-6 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-full flex items-center justify-center text-2xl sm:text-3xl shadow-lg group-hover:shadow-teal-200 transition-shadow duration-300">
                 🛡️
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-teal-700 group-hover:text-teal-800 transition-colors">Crop Protection</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-teal-700 group-hover:text-teal-800 transition-colors">Crop Protection</h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 Effective pesticides and crop protection solutions to safeguard your harvest.
               </p>
             </div>
-            <div className="group text-center p-8 bg-gradient-to-br from-green-50 to-lime-50 rounded-2xl border border-green-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
-              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-green-500 to-lime-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-green-200 transition-shadow duration-300">
+            <div className="group text-center p-6 sm:p-8 bg-gradient-to-br from-green-50 to-lime-50 rounded-2xl border border-green-200 hover:shadow-xl hover:scale-105 transition-all duration-300 sm:col-span-2 lg:col-span-1">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 sm:mb-6 bg-gradient-to-br from-green-500 to-lime-600 rounded-full flex items-center justify-center text-2xl sm:text-3xl shadow-lg group-hover:shadow-green-200 transition-shadow duration-300">
                 🤝
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-green-700 group-hover:text-green-800 transition-colors">Partnership</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-green-700 group-hover:text-green-800 transition-colors">Partnership</h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 Strong partnerships with leading brands and dedicated support for our dealers.
               </p>
             </div>
@@ -92,22 +92,22 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-            <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-              <div className="text-2xl font-bold text-emerald-600 mb-2">Sun Seeds</div>
-              <p className="text-sm text-gray-600">Premium Seed Company</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 items-center">
+            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
+              <div className="text-lg sm:text-2xl font-bold text-emerald-600 mb-2">Sun Seeds</div>
+              <p className="text-xs sm:text-sm text-gray-600">Premium Seed Company</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-              <div className="text-2xl font-bold text-teal-600 mb-2">Mukundra Seeds</div>
-              <p className="text-sm text-gray-600">Quality Seed Solutions</p>
+            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
+              <div className="text-lg sm:text-2xl font-bold text-teal-600 mb-2">Mukundra Seeds</div>
+              <p className="text-xs sm:text-sm text-gray-600">Quality Seed Solutions</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-              <div className="text-2xl font-bold text-green-600 mb-2">Pancham Agro</div>
-              <p className="text-sm text-gray-600">Crop Protection</p>
+            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
+              <div className="text-lg sm:text-2xl font-bold text-green-600 mb-2">Pancham Agro</div>
+              <p className="text-xs sm:text-sm text-gray-600">Crop Protection</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-              <div className="text-2xl font-bold text-lime-600 mb-2">More Brands</div>
-              <p className="text-sm text-gray-600">Coming Soon</p>
+            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
+              <div className="text-lg sm:text-2xl font-bold text-lime-600 mb-2">More Brands</div>
+              <p className="text-xs sm:text-sm text-gray-600">Coming Soon</p>
             </div>
           </div>
           
@@ -125,10 +125,10 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-r from-teal-600 to-emerald-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 px-4 sm:px-0">
             Ready to Partner With Us?
           </h2>
-          <p className="text-xl mb-8 text-emerald-100">
+          <p className="text-lg sm:text-xl mb-6 sm:mb-8 text-emerald-100 px-4 sm:px-0">
             Join our network of successful dealers and distributors
           </p>
           <Link

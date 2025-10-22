@@ -6,15 +6,15 @@ export default function Footer() {
       {/* Decorative background elements */}
       <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/20 to-transparent"></div>
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 to-teal-500"></div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 relative z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {/* Company Info */}
-          <div className="col-span-1 md:col-span-2">
+          <div className="col-span-1 sm:col-span-2">
             <div className="flex items-center mb-4">
               <img 
                 src="/logo.jpg" 
                 alt="Dev Agro Enterprises" 
-                className="h-16 w-auto filter brightness-0 invert"
+                className="h-12 sm:h-16 w-auto filter brightness-0 invert"
               />
             </div>
             <p className="text-gray-300 mb-4">
