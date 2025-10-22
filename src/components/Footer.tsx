@@ -13,7 +13,7 @@ export default function Footer() {
               <img 
                 src="/logo.jpg" 
                 alt="Dev Agro Enterprises" 
-                className="h-12 sm:h-16 w-auto filter brightness-0 invert"
+                className="h-12 sm:h-16 w-auto"
               />
             </div>
             <p className="text-gray-300 mb-4">
