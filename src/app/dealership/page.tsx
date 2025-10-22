@@ -130,7 +130,7 @@ export default function Dealership() {
                   </div>
                   <div>
                     <label htmlFor="company" className="block text-sm font-semibold text-gray-700 mb-3">
-                      Company Name *
+                      Firm Name *
                     </label>
                     <input
                       type="text"
@@ -140,7 +140,7 @@ export default function Dealership() {
                       value={formData.company}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors duration-200 text-gray-900 placeholder-gray-500"
-                      placeholder="Enter your company name"
+                      placeholder="Enter your firm name"
                     />
                   </div>
                 </div>
