@@ -46,7 +46,7 @@ export default function Partners() {
         </div>
       </section>
 
-      {/* Authorized Sales Partners Section */}
+      {/* Authorized Sales Partner Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden">
         {/* Subtle Background Pattern */}
         <div className="absolute inset-0 opacity-5">
@@ -59,10 +59,10 @@ export default function Partners() {
               <span className="text-3xl text-white">🤝</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Authorized <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Sales Partners</span>
+              Authorized <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Sales Partner</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              We are proud to be authorized sales partners with these leading agricultural companies, 
+              We are proud to be authorized sales partner with these leading agricultural companies, 
               bringing you the highest quality seeds and agricultural solutions across India.
             </p>
           </div>
@@ -108,7 +108,7 @@ export default function Partners() {
               Why Choose Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Authorized Partners?</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Benefits of working with our trusted authorized sales partners
+              Benefits of working with our trusted authorized sales partner
             </p>
           </div>
           
