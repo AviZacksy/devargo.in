@@ -318,46 +318,46 @@ export default function Dealership() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-emerald-50 relative overflow-hidden">
+      <section className="py-16 sm:py-20 bg-gradient-to-br from-gray-50 via-white to-emerald-50 relative overflow-hidden">
         {/* Decorative background elements */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-emerald-100/30 to-transparent rounded-full -translate-y-48 translate-x-48"></div>
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-teal-100/30 to-transparent rounded-full translate-y-40 -translate-x-40"></div>
+        <div className="absolute top-0 right-0 w-72 h-72 sm:w-96 sm:h-96 bg-gradient-to-bl from-emerald-100/30 to-transparent rounded-full -translate-y-36 translate-x-36 sm:-translate-y-48 sm:translate-x-48"></div>
+        <div className="absolute bottom-0 left-0 w-64 h-64 sm:w-80 sm:h-80 bg-gradient-to-tr from-teal-100/30 to-transparent rounded-full translate-y-32 -translate-x-32 sm:translate-y-40 sm:-translate-x-40"></div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 px-4 sm:px-0">
               Why Partner With Us?
             </h2>
-            <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4 sm:px-0">
               Discover the advantages of becoming a Dev Agro dealer
             </p>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            <div className="group text-center p-8 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl border border-yellow-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
-              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-yellow-200 transition-shadow duration-300">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12">
+            <div className="group text-center p-6 sm:p-8 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl border border-yellow-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 sm:mb-6 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-full flex items-center justify-center text-2xl sm:text-3xl shadow-lg group-hover:shadow-yellow-200 transition-shadow duration-300">
                 💰
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-yellow-700 group-hover:text-yellow-800 transition-colors">Competitive Margins</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-yellow-700 group-hover:text-yellow-800 transition-colors">Competitive Margins</h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 Enjoy attractive profit margins with our competitive pricing structure
               </p>
             </div>
-            <div className="group text-center p-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl border border-blue-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
-              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-blue-200 transition-shadow duration-300">
+            <div className="group text-center p-6 sm:p-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl border border-blue-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 sm:mb-6 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-2xl sm:text-3xl shadow-lg group-hover:shadow-blue-200 transition-shadow duration-300">
                 🏆
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-blue-700 group-hover:text-blue-800 transition-colors">Quality Products</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-blue-700 group-hover:text-blue-800 transition-colors">Quality Products</h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 Access to premium quality seeds and pesticides from trusted brands
               </p>
             </div>
-            <div className="group text-center p-8 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-200 hover:shadow-xl hover:scale-105 transition-all duration-300 sm:col-span-2 lg:col-span-1">
-              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-3xl shadow-lg group-hover:shadow-green-200 transition-shadow duration-300">
+            <div className="group text-center p-6 sm:p-8 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-200 hover:shadow-xl hover:scale-105 transition-all duration-300 sm:col-span-2 lg:col-span-1">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 sm:mb-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-2xl sm:text-3xl shadow-lg group-hover:shadow-green-200 transition-shadow duration-300">
                 🤝
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-green-700 group-hover:text-green-800 transition-colors">Full Support</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-green-700 group-hover:text-green-800 transition-colors">Full Support</h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 Comprehensive support including training, marketing, and technical assistance
               </p>
             </div>
