@@ -90,8 +90,7 @@ export default function Contact() {
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Office Address</h3>
                     <p className="text-gray-600">
                       Dev Agro Enterprises<br />
-                      [Your Business Address]<br />
-                      [City, State] - [Pincode]<br />
+                      Jaipur, Rajasthan<br />
                       India
                     </p>
                   </div>
@@ -102,9 +101,9 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone Numbers</h3>
                     <p className="text-gray-600">
-                      Primary: +91-XXX-XXXX-XXXX<br />
-                      Secondary: +91-XXX-XXXX-XXXX<br />
-                      Toll Free: 1800-XXX-XXXX
+                      Primary: +91-8854844444<br />
+                      Secondary: +91-7891150505<br />
+                      Business Hours: 10 AM to 8 PM
                     </p>
                   </div>
                 </div>
@@ -114,9 +113,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Email Address</h3>
                     <p className="text-gray-600">
-                      General: info@devagro.com<br />
-                      Sales: sales@devagro.com<br />
-                      Support: support@devagro.com
+                      Email: devagro2017@gmail.com<br />
+                      Business Hours: 10 AM to 8 PM
                     </p>
                   </div>
                 </div>
@@ -126,9 +124,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Business Hours</h3>
                     <p className="text-gray-600">
-                      Monday - Friday: 9:00 AM - 6:00 PM<br />
-                      Saturday: 9:00 AM - 4:00 PM<br />
-                      Sunday: Closed
+                      Monday - Sunday: 10:00 AM - 8:00 PM<br />
+                      Open 7 days a week
                     </p>
                   </div>
                 </div>
@@ -137,14 +134,14 @@ export default function Contact() {
               {/* Quick Contact Buttons */}
               <div className="mt-8 space-y-4">
                 <a
-                  href="tel:+91-XXX-XXXX-XXXX"
+                  href="tel:+918854844444"
                   className="flex items-center justify-center bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors shadow-lg hover:shadow-xl"
                 >
                   <span className="mr-2">📞</span>
                   Call Us Now
                 </a>
                 <a
-                  href="mailto:info@devagro.com"
+                  href="mailto:devagro2017@gmail.com"
                   className="flex items-center justify-center border-2 border-emerald-600 text-emerald-600 px-6 py-3 rounded-lg hover:bg-emerald-600 hover:text-white transition-colors shadow-lg hover:shadow-xl"
                 >
                   <span className="mr-2">📧</span>

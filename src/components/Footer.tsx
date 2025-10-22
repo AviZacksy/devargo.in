@@ -20,9 +20,9 @@ export default function Footer() {
               Leading agricultural seeds & pesticides master distributor, empowering growth through quality seeds and crop solutions.
             </p>
             <div className="text-sm text-gray-400">
-              <p>📧 info@devagro.com</p>
-              <p>📞 +91-XXX-XXXX-XXXX</p>
-              <p>📍 Your Business Address Here</p>
+              <p>📧 devagro2017@gmail.com</p>
+              <p>📞 +91-8854844444</p>
+              <p>📍 Jaipur, Rajasthan</p>
             </div>
           </div>
 
@@ -57,9 +57,8 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Business Hours</h3>
             <div className="text-gray-300 text-sm space-y-1">
-              <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-              <p>Saturday: 9:00 AM - 4:00 PM</p>
-              <p>Sunday: Closed</p>
+              <p>Monday - Sunday: 10:00 AM - 8:00 PM</p>
+              <p>Open 7 days a week</p>
             </div>
           </div>
         </div>
