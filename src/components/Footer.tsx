@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white">
+    <footer className="bg-gradient-to-r from-slate-800 via-gray-800 to-slate-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -29,22 +29,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="text-gray-300 hover:text-green-400 transition-colors">
+                <Link href="/about" className="text-gray-300 hover:text-emerald-400 transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/partners" className="text-gray-300 hover:text-green-400 transition-colors">
+                <Link href="/partners" className="text-gray-300 hover:text-emerald-400 transition-colors">
                   Our Partners
                 </Link>
               </li>
               <li>
-                <Link href="/dealership" className="text-gray-300 hover:text-green-400 transition-colors">
+                <Link href="/dealership" className="text-gray-300 hover:text-emerald-400 transition-colors">
                   Apply for Dealership
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-300 hover:text-green-400 transition-colors">
+                <Link href="/contact" className="text-gray-300 hover:text-emerald-400 transition-colors">
                   Contact Us
                 </Link>
               </li>

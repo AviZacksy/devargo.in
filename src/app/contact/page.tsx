@@ -64,12 +64,12 @@ export default function Contact() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-600 to-green-800 text-white py-16">
+      <section className="bg-gradient-to-r from-emerald-600 via-green-600 to-teal-700 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Contact Us
           </h1>
-          <p className="text-xl text-green-100">
+          <p className="text-xl text-emerald-100">
             Get in touch with our team for any inquiries or support
           </p>
         </div>
@@ -138,14 +138,14 @@ export default function Contact() {
               <div className="mt-8 space-y-4">
                 <a
                   href="tel:+91-XXX-XXXX-XXXX"
-                  className="flex items-center justify-center bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors"
+                  className="flex items-center justify-center bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors shadow-lg hover:shadow-xl"
                 >
                   <span className="mr-2">📞</span>
                   Call Us Now
                 </a>
                 <a
                   href="mailto:info@devagro.com"
-                  className="flex items-center justify-center border-2 border-green-600 text-green-600 px-6 py-3 rounded-lg hover:bg-green-600 hover:text-white transition-colors"
+                  className="flex items-center justify-center border-2 border-emerald-600 text-emerald-600 px-6 py-3 rounded-lg hover:bg-emerald-600 hover:text-white transition-colors shadow-lg hover:shadow-xl"
                 >
                   <span className="mr-2">📧</span>
                   Send Email
@@ -246,7 +246,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+                  className="w-full bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors shadow-lg hover:shadow-xl"
                 >
                   Send Message
                 </button>

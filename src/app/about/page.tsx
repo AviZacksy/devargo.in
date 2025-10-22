@@ -2,12 +2,12 @@ export default function About() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-600 to-green-800 text-white py-16">
+      <section className="bg-gradient-to-r from-emerald-600 via-green-600 to-teal-700 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             About Dev Agro Enterprises
           </h1>
-          <p className="text-xl text-green-100">
+          <p className="text-xl text-emerald-100">
             Your trusted partner in agricultural excellence
           </p>
         </div>
@@ -34,12 +34,12 @@ export default function About() {
                 and unwavering commitment to farmer success.
               </p>
             </div>
-            <div className="bg-green-50 p-8 rounded-lg">
+            <div className="bg-gradient-to-br from-emerald-50 to-teal-50 p-8 rounded-lg border border-emerald-200">
               <div className="text-center">
                 <div className="flex justify-center mb-4">
                   <img src="/logo.jpg" alt="Dev Agro Enterprises" className="h-20 w-auto" />
                 </div>
-                <h3 className="text-2xl font-bold text-green-600 mb-4">Years of Excellence</h3>
+                <h3 className="text-2xl font-bold text-emerald-600 mb-4">Years of Excellence</h3>
                 <p className="text-gray-600">
                   Serving the agricultural community with dedication and expertise
                 </p>
@@ -143,11 +143,11 @@ export default function About() {
       </section>
 
       {/* Values */}
-      <section className="py-16 bg-green-600 text-white">
+      <section className="py-16 bg-gradient-to-r from-teal-600 to-emerald-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Core Values</h2>
-            <p className="text-xl text-green-100">
+            <p className="text-xl text-emerald-100">
               The principles that guide everything we do
             </p>
           </div>
@@ -156,28 +156,28 @@ export default function About() {
             <div className="text-center">
               <div className="text-3xl mb-3">🌱</div>
               <h3 className="text-lg font-semibold mb-2">Quality</h3>
-              <p className="text-green-100 text-sm">
+              <p className="text-emerald-100 text-sm">
                 Uncompromising commitment to product quality and excellence
               </p>
             </div>
             <div className="text-center">
               <div className="text-3xl mb-3">🤝</div>
               <h3 className="text-lg font-semibold mb-2">Integrity</h3>
-              <p className="text-green-100 text-sm">
+              <p className="text-emerald-100 text-sm">
                 Honest, transparent, and ethical business practices
               </p>
             </div>
             <div className="text-center">
               <div className="text-3xl mb-3">🚀</div>
               <h3 className="text-lg font-semibold mb-2">Innovation</h3>
-              <p className="text-green-100 text-sm">
+              <p className="text-emerald-100 text-sm">
                 Embracing new technologies and solutions for better outcomes
               </p>
             </div>
             <div className="text-center">
               <div className="text-3xl mb-3">👥</div>
               <h3 className="text-lg font-semibold mb-2">Partnership</h3>
-              <p className="text-green-100 text-sm">
+              <p className="text-emerald-100 text-sm">
                 Building strong, mutually beneficial relationships
               </p>
             </div>

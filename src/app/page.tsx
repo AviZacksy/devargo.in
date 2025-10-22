@@ -4,24 +4,24 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-600 to-green-800 text-white py-20">
+      <section className="bg-gradient-to-r from-emerald-600 via-green-600 to-teal-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Empowering Growth Through Quality Seeds & Crop Solutions
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-green-100">
+          <p className="text-xl md:text-2xl mb-8 text-emerald-100">
             Leading agricultural seeds & pesticides master distributor
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/dealership"
-              className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors duration-200"
+              className="bg-white text-emerald-600 px-8 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               Apply for Dealership
             </Link>
             <Link
               href="/contact"
-              className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors duration-200"
+              className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-emerald-600 transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               Contact Us
             </Link>
@@ -81,20 +81,20 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="text-2xl font-bold text-green-600 mb-2">Sun Seeds</div>
+            <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
+              <div className="text-2xl font-bold text-emerald-600 mb-2">Sun Seeds</div>
               <p className="text-sm text-gray-600">Premium Seed Company</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="text-2xl font-bold text-green-600 mb-2">Mukundra Seeds</div>
+            <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
+              <div className="text-2xl font-bold text-teal-600 mb-2">Mukundra Seeds</div>
               <p className="text-sm text-gray-600">Quality Seed Solutions</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+            <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
               <div className="text-2xl font-bold text-green-600 mb-2">Pancham Agro</div>
               <p className="text-sm text-gray-600">Crop Protection</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="text-2xl font-bold text-green-600 mb-2">More Brands</div>
+            <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
+              <div className="text-2xl font-bold text-lime-600 mb-2">More Brands</div>
               <p className="text-sm text-gray-600">Coming Soon</p>
             </div>
           </div>
@@ -102,7 +102,7 @@ export default function Home() {
           <div className="text-center mt-8">
             <Link
               href="/partners"
-              className="text-green-600 hover:text-green-700 font-semibold"
+              className="text-emerald-600 hover:text-emerald-700 font-semibold"
             >
               View All Partners →
             </Link>
@@ -111,17 +111,17 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-green-600 text-white">
+      <section className="py-16 bg-gradient-to-r from-teal-600 to-emerald-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Partner With Us?
           </h2>
-          <p className="text-xl mb-8 text-green-100">
+          <p className="text-xl mb-8 text-emerald-100">
             Join our network of successful dealers and distributors
           </p>
           <Link
             href="/dealership"
-            className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors duration-200 inline-block"
+            className="bg-white text-emerald-600 px-8 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition-colors duration-200 inline-block shadow-lg hover:shadow-xl"
           >
             Apply for Dealership Today
           </Link>
