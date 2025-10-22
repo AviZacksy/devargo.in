@@ -17,7 +17,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-300 mb-4 text-sm sm:text-base leading-relaxed">
-              Leading agriculture seeds and pesticides super-stockist, master distributor, and C&F Assurance of best quality agri-seeds, pesticides and crop solution under one roof.
+              Leading agriculture seeds and pesticides super-stockist, master distributor, and C&F Assurance of best quality <span className="whitespace-nowrap">agri-seeds</span>, pesticides and crop solution under one roof.
             </p>
             <div className="text-xs sm:text-sm text-gray-400 space-y-1">
               <p className="break-all">📧 devagro2017@gmail.com</p>
