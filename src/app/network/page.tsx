@@ -32,7 +32,7 @@ export default function Network() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Rajasthan Network Coverage</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              We have established a strong network across Rajasthan, serving farmers and dealers in all major districts. 
+              We have established a strong network across Rajasthan, serving dealers in all major districts. 
               Our extensive reach ensures quality agricultural inputs are available throughout the state.
             </p>
           </div>
@@ -72,7 +72,7 @@ export default function Network() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Our Coverage Areas</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We serve farmers and dealers across all major districts of Rajasthan
+              We serve dealers across all major districts of Rajasthan
             </p>
           </div>
 
