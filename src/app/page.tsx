@@ -13,7 +13,7 @@ export default function Home() {
             Empowering Growth Through Quality Seeds & Crop Solutions
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-emerald-100 px-4 sm:px-0">
-            Leading agricultural seeds & pesticides master distributor
+            We deals in agriculture seeds, pesticides & PGR
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4 sm:px-0">
             <Link
