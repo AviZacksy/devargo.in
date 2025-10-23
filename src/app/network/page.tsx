@@ -29,7 +29,7 @@ export default function Network() {
               <span className="text-3xl text-white">🌐</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Rajasthan <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Network Coverage</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Rajasthan Network Coverage</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               We have established a strong network across Rajasthan, serving farmers and dealers in all major districts. 
@@ -69,7 +69,7 @@ export default function Network() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Coverage Areas</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Our Coverage Areas</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We serve farmers and dealers across all major districts of Rajasthan
