@@ -16,7 +16,7 @@ export default function Footer() {
                 className="h-10 sm:h-12 lg:h-16 w-auto"
               />
             </div>
-            <p className="text-gray-300 mb-2 text-sm sm:text-base leading-relaxed">
+            <p className="text-gray-300 mb-0 text-sm sm:text-base leading-relaxed">
               Leading agriculture seeds and pesticides super-stockist, master distributor, and C&F.
             </p>
             <p className="text-gray-300 mb-4 text-sm sm:text-base leading-relaxed">

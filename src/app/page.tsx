@@ -43,8 +43,8 @@ export default function Home() {
               About Dev Agro Enterprises
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We are a trusted master distributor and super-stockist specializing in agricultural seeds and pesticides. 
-              Our commitment to quality and farmer success drives everything we do.
+              We serve as an authorized sales partner for the specified manufacturing units. 
+              We are committed to supplying premium quality products to the farmers through our dealer network.
             </p>
           </div>
           
